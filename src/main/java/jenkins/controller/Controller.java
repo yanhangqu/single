@@ -4,11 +4,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/jenkins")
+@RequestMapping("/is/myjenkins")
 public class Controller {
 
     @RequestMapping("/singletest1")
     public String test1(){
-        return "this is jenkins singletest1";
+        String s = "sss";
+        return "this is not jenkins dddddddd"+"ssssssssssssssssss";
+    }
+
+    @RequestMapping("/singletest1")
+    public String test2(){
+        System.out.println("============");
+        String result ="this is jenkins singletest11111111";
+        return result;
+
     }
 }
