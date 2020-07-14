@@ -21,4 +21,9 @@ public class Controller {
     public String test3(){
         return "this is git remote";
     }
+
+    @RequestMapping("/pr")
+    public String test4(){
+        return "this is git pr 0957 master_new";
+    }
 }
