@@ -16,4 +16,9 @@ public class Controller {
     public String test2(){
         return "this is jenkins singletest1";
     }
+
+    @RequestMapping("/remote")
+    public String test3(){
+        return "this is git remote";
+    }
 }
