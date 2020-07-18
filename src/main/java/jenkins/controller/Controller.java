@@ -31,4 +31,9 @@ public class Controller {
     public String test5(){
         return "this is a new pr 1549";
     }
+
+    @RequestMapping("/main-pr1604")
+    public String test6(){
+        return "this is a new change 1604 by main";
+    }
 }
