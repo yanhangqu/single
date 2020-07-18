@@ -26,4 +26,9 @@ public class Controller {
     public String test4(){
         return "this is a new pr";
     }
+
+    @RequestMapping("/new-pr1549")
+    public String test5(){
+        return "this is a new pr 1549";
+    }
 }
