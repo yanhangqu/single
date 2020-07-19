@@ -41,4 +41,9 @@ public class Controller {
     public String test7(){
         return "this is a new change 1646 by main";
     }
+
+    @RequestMapping("/main-719-2230")
+    public String test8(){
+        return "this is a new change 719-2230 by main";
+    }
 }
